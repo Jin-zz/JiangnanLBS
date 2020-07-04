@@ -1,0 +1,20 @@
+<view class='css_headbox'> 
+ <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}" class="picker">
+      <view class='css_pickertext1'>选择类别</view>
+      <view class='css_pickertext2'>{{multiArray[0][multiIndex[0]]}} - {{multiArray[1][multiIndex[1]]}}</view>
+ </picker>
+ <button class="css_btn" bindtap="getMessageMer">查询</button>
+</view>
+
+<view wx:if="{{isupdate}}">
+ <view wx:for="{{lastmer}}" style="display: block;">
+   <view class='css_bg' style="background-color:rgba(123, 168, 207,{{1-index/listlength}});"> 
+    <image class='css_merimg' src="{{item.src}}"></image>
+    <view class='css_mertext1' >{{item.name}}</view>
+    <view class='css_mertext2' >{{item.type}}</view>
+    <view class='css_mertext2' >{{item.address}}</view>
+  <!-- <view class='css_mertext'>{{item.address}}</view> -->
+ <!-- </view> -->
+   </view>
+ </view>
+</view>

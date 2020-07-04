@@ -1,0 +1,67 @@
+/* Page/page3/page3.wxss */
+.css_headbox{
+ width: 100%;
+ position: relative;
+ background-color: rgb(89, 130, 167);
+
+}
+
+.picker{
+  width: 80%;
+  position: relative;
+  display:inline-block;
+  vertical-align: top;
+}
+.css_btn{
+  width: 20%;
+  height: 60px;
+  position:relative;
+  background-color: rgb(176, 202, 221);
+  display:inline-block;
+  vertical-align: middle;
+  color: rgba(12, 12, 12, 0.815);
+  line-height: 60px;
+}
+
+.css_pickertext1{
+  padding-top: 4px;
+  font-size:18px;
+  color: rgba(255, 255, 255, 0.815);
+  text-align:center;
+}
+.css_pickertext2{
+  padding-top: 2px;
+  padding-bottom: 4px;
+  font-size:15px;
+  text-align:center;
+  color: rgba(255, 254, 254, 0.815);
+}
+
+.css_bg{
+  border:2px solid rgb(250, 250, 250); 
+  position:relative;
+  height :150px;
+  /* background-color: rgba(195, 233, 211, 0.671);   */
+}
+
+.css_merimg{ 
+  float: left;
+  margin: 3%;
+  width: 35%;
+  height: 110px
+}
+
+.css_mertext1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:18px;
+  color: rgb(12, 12, 12);
+
+}
+
+.css_mertext2{
+  font-size:15px;
+  padding-bottom: 3px;
+  color: rgb(12, 12, 12);
+
+}

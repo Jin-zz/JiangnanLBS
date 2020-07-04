@@ -1,0 +1,31 @@
+/* Page/page1_1/page1_1.wxss */
+
+.css_page1_1_body{
+  padding: 20rpx 0;
+}
+
+.css_page1_1_text{
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.css_page1_1_textarea{
+  padding: 0 25rpx;
+  background-color: #fff;
+  height: 3em
+}
+
+.css_page1_1_img1{
+  position:absolute;
+  width: 13%;
+  height: 9%;
+}
+
+.css_page1_1_img2{
+  position:absolute;
+  width: 13%;
+  height: 9%;
+}

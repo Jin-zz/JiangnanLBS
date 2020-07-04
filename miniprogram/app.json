@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "Page/page1/page1",
+    "Page/page2/page2",
+    "Page/page3/page3",
+    "Page/page1_1/page1_1"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "江南 LBS",
+    "navigationBarTextStyle": "black"
+  },
+
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "Page/page1/page1",
+          "text": "Clock in",
+          "iconPath": "images/menus_CL.png",
+          "selectedIconPath": "images/menus_CL.png"
+        },
+        {
+          "pagePath": "Page/page2/page2",
+          "text": "See",
+          "iconPath": "images/menus_world.png",
+          "selectedIconPath": "images/menus_world.png"
+        },
+        {
+          "pagePath": "Page/page3/page3",
+          "text": "Merchant",
+          "iconPath": "images/menus_ME.png",
+          "selectedIconPath": "images/menus_ME.png"
+        }
+      ]
+    }
+}

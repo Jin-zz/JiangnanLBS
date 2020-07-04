@@ -1,0 +1,26 @@
+<view>
+ <map
+ wx:if="{{ismap}}"
+ id="MapWorld"
+ style="width: 100%; height: 540px;"
+ latitude="{{_mylatitude}}"
+ longitude="{{_mylongitude}}"
+ subkey="CYIBZ-UCD36-U5ZSB-EFDT3-7NFCF-G2F72"
+ markers="{{markers}}" bindmarkertap="markertap"
+ show-location
+ >
+   <cover-view>
+     <button class="css_btnWorld" bindtap="getMessageWorld">World</button>
+     <button class="css_btnMe" bindtap="getMessageMe">Me</button>
+   </cover-view>
+
+  <cover-view class="css_Page" style='display:{{_Page_display}}'>
+   <cover-image class="css_PageStateImg_1" bindtap="closeMessage" src="../../images/img_x.png" />
+   <cover-view class="css_PageText">{{_Place}}</cover-view>
+   <cover-view class="css_PageText">{{_Time}}</cover-view>
+   <cover-view class="css_PageText">{{_Text}}</cover-view>
+   <cover-image wx:if="{{_State != -1}}" class="css_PageStateImg_2" src="{{_StateImg}}" />
+  </cover-view>
+
+ </map>
+</view>

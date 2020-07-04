@@ -1,0 +1,29 @@
+<view class="css_pagesection">
+ <map
+id="myMap"
+style="width: 100%; height: 540px;"
+latitude="{{mylatitude}}"
+longitude="{{mylongitude}}"
+subkey="CYIBZ-UCD36-U5ZSB-EFDT3-7NFCF-G2F72"
+markers="{{markers}}" bindmarkertap="markertap"
+show-location
+>
+<cover-image class="css_updateLocation" bindtap="updateLocation" src="../../images/img_updateLocation.png" />
+
+<cover-view class="css_CLPage" style='display:{{_CLPage_display}}'>{{_CLPlace}}
+
+ <cover-view class="css_CLPageText">{{_CLTime}}</cover-view>
+ <!-- <cover-view wx:if="{{_CLState==-1 || _CLText ==''}}">  -->
+   <cover-image class="css_CLPageImg_1" bindtap="CLPageImg_1" src="../../images/img_CL_1.png" style='display:{{_CLPageImg_display}}' />
+ <!-- </cover-view> -->
+
+ <cover-view wx:if="{{_CLState!=-1 && _CLText!=''}}"> 
+   <cover-view class="css_CLPageText">{{_CLText}}</cover-view>
+   <cover-image class="css_CLPageStateImg" src="{{_CLPageStateImg}}" />
+   <button class="css_CLPageBtnConfirm" bindtap="CLPageBtnConfirm">确定</button>
+ </cover-view>
+</cover-view>
+
+
+ </map>
+</view>
