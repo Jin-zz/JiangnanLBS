@@ -6,26 +6,26 @@
 
 地图标记：
 
-![image-20200704120911313](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704120911313.png)
+![image-20200704120911313](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704120911313.png)
 
 签到：
 
-![image-20200704120947442](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704120947442.png)
+![image-20200704120947442](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704120947442.png)
 
-![image-20200704121015773](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121015773.png)
+![image-20200704121015773](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121015773.png)
 
 显示自己和其他人的签到位置：
 
-![image-20200704121030950](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121030950.png)
+![image-20200704121030950](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121030950.png)
 
-![image-20200704121102421](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121102421.png)
+![image-20200704121102421](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121102421.png)
 
 查看他人签到信息：
 
-![image-20200704121158316](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121158316.png)
+![image-20200704121158316](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121158316.png)
 
 基于地理位置和类别显示商家:
 
-![image-20200704121251175](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121251175.png)
+![image-20200704121251175](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121251175.png)
 
-![image-20200704121304958](https://gitee.com/sparkle__zz/markdown-pics/raw/master/image-20200704121304958.png)
+![image-20200704121304958](https://gitee.com/sparkle_zz/markdown-pics/raw/master/image-20200704121304958.png)
